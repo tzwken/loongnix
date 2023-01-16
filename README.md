@@ -13,4 +13,4 @@ PHP5.6.40-fpm by alpine-3.11
      
      make && make install
 
-   4. FIX intl拓展编译不错误问题。新镜像已集成此模块。
+   4. FIX intl拓展编译报错误问题处理。新镜像已集成此模块。
