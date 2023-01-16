@@ -12,3 +12,5 @@ PHP5.6.40-fpm by alpine-3.11
      ./configure --with-php-config=/usr/local/bin/php-config --with-openssl-dir=/usr/local/ssl
      
      make && make install
+
+   4. FIX intl拓展编译不错误问题。新镜像已集成此模块。
