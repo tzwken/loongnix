@@ -1,5 +1,5 @@
-PHP5.6.40-fpm by alpine-3.11
-  1. https://hub.docker.com/repository/docker/tzwken/php-fpm5/general
+PHP5.6.40-fpm for loongarch64 by alpine-3.11
+  1. https://hub.docker.com/r/tzwken/php5-fpm
   2. 基于官方php-5.6.40编译，支持pcre-jit(源码有修改增加对loongarch64的实别)。其它拓展可使用pecl进行安装。
   3. 使用到ssl的模块需要手动编译，切换到模块所在目录执行如下命令
   
